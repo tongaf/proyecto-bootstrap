@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.title {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #3957f1;
+}
+
+.p1 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.p2 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.cardw {
+    width: 23%;
+}
+
+.border {
+    border: 1px solid gray;
+    padding: 0%;
+}
+
+.martext {
+    margin-top: 19%;
+}
+
+.marginbody {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.margindiv {
+    margin-left: 4%;
+}
+
+.cardgood {
+    padding: unset;
+}
+
+.margincard {
+    margin-right: 1%;
+}
+
+.marginend {
+    margin-right: 4%;
+}
+
+@media(max-width: 992px) {
+    div {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+
+    .cardw {
+        width: unset;
+        width: 40%;
+    }
+
+}
+
+@media(max-width: 768px) {
+    div {
+        flex-flow: column;
+        justify-content: center;
+        margin-bottom: 2%;
+        margin-left: 5%;
+    }
+    
+    .cardw {
+        width: unset;
+        width: 80%;
+        
+    }
+
+    h5 {
+        margin-top: 18%;
+    }
+}
+

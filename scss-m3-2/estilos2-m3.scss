@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,900;1,400&display=swap');
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 5.125rem;
+    color: #04146c;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1.313rem;
+    color: #04146c;
+}
+
+.margin {
+    margin: 3%;
+}
+
+.margincontent {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.spacing {
+    width: 44%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.buttonc {
+    background-color: #04146c;
+}
+
+.lbutton {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    background-color: #04146c;
+}
+
+.wbutton {
+    width: 150px;
+    margin-right: 2%;
+}
+
+@media(max-width: 768px) {
+    div {
+        flex-wrap: wrap;
+        width: 105%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .spacing {
+        margin: unset;
+    }
+
+    img {
+        width: 85%;
+    }
+}
